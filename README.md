@@ -1,2 +1,2 @@
 # CCNP_V8_Lab_Practice
-![Network Topology](topology/OSPF_Topology.png)
+![Lab Topology](./topology/OSPF_Topology.png)
