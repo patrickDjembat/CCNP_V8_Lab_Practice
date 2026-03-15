@@ -1,5 +1,5 @@
 # OSPF_V8_Lab_Practice
-![Lab Topology](./topology/OSPF_Topology.png)
+![Lab Topology](./Topology/OSPF_lab_Topology.png)
 
 ## Purpose
 Hello Internet! While preparing for the CCNP ENARSI exam, I decided to play around and create some labs of my own to test my understanding of each concepts. That is how this little project started. The goal of this repo is to help me or anyone out there learning through pratical example from theory and also based on my decade plus experience. Feel free to reach me on LinkedIn if you have any questions or recommendations
