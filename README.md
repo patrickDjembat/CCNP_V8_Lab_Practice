@@ -2,18 +2,30 @@
 ![Lab Topology](./Topology/OSPF_lab_Topology.png)
 
 ## Purpose
-Hello Internet! While preparing for the CCNP ENARSI exam, I decided to play around and create some labs of my own to test my understanding of each concepts. That is how this little project started. The goal of this repo is to help me or anyone out there learning through pratical example from theory and also based on my decade plus experience. Feel free to reach me on LinkedIn if you have any questions or recommendations
+Hello network! 👋
+
+While preparing for my CCNP ENARSI exam, I decided to build custom labs to solidify my understanding of each concept. What started as a study exercise has evolved into this project!The goal of this repository is to bridge the gap between theory and practice through hands-on examples, fueled by my 10+ years of experience in the field. Whether you’re also studying for the CCNP or just want to sharpen your skills, I hope you find this helpful.I’d love to hear your thoughts! Feel free to reach out here on LinkedIn if you have any questions or suggestions.
+
 ## Getting started
-
-### Description
-In this topology, there are multiple Area and only 3 protocols involved: OSPF, EIGRP and RIP.
-
 
 ### Images Used
 - IOSv Version 15.8(3)M2
 - VPCS built in images
+  
+### Description
+Don’t just trust the documentation—verify it. 🛠️
 
-### Addressing Table
+You can use the provided topology to map out the connections in this lab, but I encourage you to double-check every detail. Why? Because in a production environment, documentation is rarely up-to-date. Relying solely on a diagram without verifying it yourself can be a costly mistake.
+
+#### Lab Specs:
+- 13 Routers 
+- 6 Hosts.
+- Protocols: OSPF, RIP, and EIGRP.
+- Troubleshooting: 8 active tickets are available now, with more on the way!
+
+[Follow me on LinkedIn](https://www.linkedin.com/in/djembto/) for updates as I add new scenarios.
+
+#### Addressing Table
 
 | Router | Router ID | Interface | OSPF Area | IP Address / Network |
 |------|------|------|------|------|
@@ -47,6 +59,48 @@ In this topology, there are multiple Area and only 3 protocols involved: OSPF, E
 | R12 | 12.12.12.12 | Gi0/0 | Area 4 (Totally NSSA) | 10.1.112.2/24 |
 |  |  | Gi0/1 | RIP Domain | 10.1.123.1/24 |
 | R13 | 13.13.13.13 | Gi0/0 | RIP Domain | 10.1.123.2/24 |
+
+## Project Structure
+```bash
+│
+├── README.md
+├── Topology/
+│   ├── OSPF_lab_topology.png
+│
+├── configs/
+│   ├── initial-working-config/
+│       ├── R01.cfg
+│       ├── R02.cfg
+│       ├── R03.cfg
+│
+├── Trouble-ticket-1/
+│   ├── lab-guide.md
+│   ├── Running-config/
+│   │   ├── R01.cfg
+│   │   ├── R02.cfg
+│   │   ├── R03.cfg
+│   │   ├── R04.cfg
+│   │   ├── R05.cfg
+│   │   ├── R06.cfg
+│   │   ├── R07.cfg
+│   │   ├── R08.cfg
+│   │   ├── R09.cfg
+│   │   ├── R10.cfg
+│   │   ├── R11.cfg
+│   │   ├── R12.cfg
+│   │   └── R13.cfg
+│   └── troubleshooting-walkthrough.md
+│
+├── Trouble-ticket-2/
+├── Trouble-ticket-3/
+├── Trouble-ticket-4/
+├── Trouble-ticket-5/
+├── Trouble-ticket-6/
+├── Trouble-ticket-7/
+├── Trouble-ticket-8/
+└── eve-ng/
+    └── lab.unl
+```
 
 ### Disclaimer
 - This is a lab topology and is in no shape and form representative of the topology with my current or formers employers.
