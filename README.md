@@ -72,35 +72,37 @@ You can use the provided topology to map out the connections in this lab, but I 
 │       ├── R01.cfg
 │       ├── R02.cfg
 │       ├── R03.cfg
+│       ├── R04.cfg
+│       ├── R05.cfg
+│       ├── R06.cfg
+│       ├── R07.cfg
+│       ├── R08.cfg
+│       ├── R09.cfg
+│       ├── R10.cfg
+│       ├── R11.cfg
+│       ├── R12.cfg
+│       └── R13.cfg
 │
-├── Trouble-ticket-1/
+├── trouble-ticket-1/
 │   ├── lab-guide.md
-│   ├── Running-config/
+│   ├── running-config/
 │   │   ├── R01.cfg
 │   │   ├── R02.cfg
 │   │   ├── R03.cfg
-│   │   ├── R04.cfg
-│   │   ├── R05.cfg
-│   │   ├── R06.cfg
-│   │   ├── R07.cfg
-│   │   ├── R08.cfg
-│   │   ├── R09.cfg
-│   │   ├── R10.cfg
-│   │   ├── R11.cfg
-│   │   ├── R12.cfg
-│   │   └── R13.cfg
 │   └── troubleshooting-walkthrough.md
 │
-├── Trouble-ticket-2/
-├── Trouble-ticket-3/
-├── Trouble-ticket-4/
-├── Trouble-ticket-5/
-├── Trouble-ticket-6/
-├── Trouble-ticket-7/
-├── Trouble-ticket-8/
+├── trouble-ticket-2/
+├── trouble-ticket-3/
+├── trouble-ticket-4/
+├── trouble-ticket-5/
+├── trouble-ticket-6/
+├── trouble-ticket-7/
+├── trouble-ticket-8/
 └── eve-ng/
     └── lab.unl
 ```
+
+Under each trouble ticket, you will find the configuration for the devices which were changed for this specific scenario.
 
 ### Disclaimer
 - This is a lab topology and is in no shape and form representative of the topology with my current or formers employers.
